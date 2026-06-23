@@ -47,3 +47,13 @@ article{
      border: 2px dashed lightgreen;
      background-clip: border-box;
 }
+aside {
+    background-color:purple;
+    color:white;
+    background-clip: content-box;  
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 9px solid lightslategray;
+    margin: 9px;
+}
