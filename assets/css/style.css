@@ -2,58 +2,54 @@ p {
     font-family: Arial, sans-serif; 
     font-size: 14px;
  }
-
- header{
-    background-color: blue;
-    margin: 9px;
-    padding: 9px;
-    border: 9px solid lightblue;
-    color: white;
-    background-clip: border-box;
-}
-nav{
-    background-color: orange;
-    margin: 12px;
-    padding: 12px;
-    border: 12px solid lightgrey;
-    background-clip: border-box;
-}
-main {
-    background-color: lightgrey;
-    margin: 10px;
-    padding: 10px;
-    border: 10px solid lightslategray;
-    background-clip: border-box;
-}
-footer {
-    background-color: black;
-    margin: 10px;
-    padding: 10px;
-    border: 10px solid rgb(125, 33, 143);
-    color: rgb(125, 38, 143);
-    background-clip: border-box;
-}
-section {
-    background-color: yellow;
-    margin: 11px;
-    padding: 11px;
-    border: 11px solid white;
-    background-clip: border-box;
-}
-article{
-     background-color: green;
-     margin: 2px;
-     padding: 2px;
-     border: 2px dashed lightgreen;
-     background-clip: border-box;
-}
-aside {
-    background-color:purple;
-    color:white;
-    background-clip: content-box;  
-    padding: 10px;
-    font-size: 14px;
-    font-weight: bold;
-    border: 9px solid lightslategray;
-    margin: 9px;
-}
+  header {
+                background-color: blue;
+                background-clip: content-box;
+                color: white;
+                padding: 10px;
+                border: 9px solid lightgray;
+                margin: 9px;
+            }
+            nav {
+                background-color: orangered;
+                background-clip: content-box;
+                padding: 10px;
+                border: 9px solid lightslategray;
+                margin: 9px;
+            }
+            section {
+                background-color: yellow;
+                background-clip: content-box;
+                padding: 10px;
+                margin: 10px;
+                border: 9px solid lightslategray;
+            }
+            article {
+                background-color: lightgreen;
+                background-clip: content-box;
+                padding: 10px;
+                color: black;
+                border: 9px dashed lightslategray;
+                margin: 9px;
+            }
+            aside {
+                background-color:purple;
+                color:white;
+                background-clip: content-box;  
+                padding: 10px;
+                font-size: 14px;
+                font-weight: bold;
+                border: 9px solid lightslategray;
+                margin: 9px;
+            }
+            footer {
+                background-color: darkslategrey;
+                background-clip: content-box;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                font-size: 14px;
+                font-weight: bold;
+                margin: 9px;
+                border: 9px solid lightslategray;
+            }
